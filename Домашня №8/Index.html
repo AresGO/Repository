@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Домашня №8</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Цибар Віктор">
+		<meta name="keywords" content="Форми">
+		<meta name="description" content="Форми">
+	</head>
+	
+	
+	
+	<body>
+		<h1>Форма реєстрації</h1>
+		<form action="mailto:viki123456788@gmail.com" method="get">
+			<label for="name">Ім'я:</label>
+			<input type="text" id="name"> <br/>
+			<label for="surname">Прізвище:</label>
+			<input type="text" id="surname"> <br/>
+			<label>	Дата народження:
+			<input type="date">
+			</label> <br/>
+			<label> Чоловік
+			<input type="radio" name="sex" value="Чоловік">
+			</label>
+			<label> Жінка
+			<input type="radio" name="sex" value="Жінка">
+			</label>
+			<fieldset>
+				<legend>Місце проживання</legend>
+				<label>
+				Місто:
+					<select>
+						<option>Мукачево </option>
+						<option>Ужгород </option>
+						<option>Івано-Франківськ </option>
+						<option>Хуст </option>  
+						<option>Тячів </option>  
+					</select>
+				</label>
+				<label for="street">Вулиця:</label>
+				<input type="text" id="street"> <br/>
+			</fieldset> 
+			<fieldset>
+				<legend>Персональні дані</legend>
+			<label>
+				Ваш e-mail:
+					<input type="email">
+			</label> <br/>
+			<label> 
+				Пароль:
+					<input type="password">
+			</label> <br/>
+			</fieldset>
+			<label> Я надаю згоду на обробку персональних даних відповідно до Угоди про конфіденційність і приймаю її умови.
+			<input type="radio" value="Так"><br>
+			<label>
+				Очистити дані
+					<input type="reset" value="Очистити дані">
+			</label> <br/>
+			<input type="submit" value="Реєстрація">
+		</form>
+		<p> Повернутися <a href="../Index.html">назад</a>.<p>
+	</body>
+</html>
